@@ -1,0 +1,34 @@
+name: サービスステータスチェック
+
+on:
+  schedule:
+    # 15分ごとに実行する設定 (必要に応じて変更可能)
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # 手動実行も可能にする
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  ping-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: コードのチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.jsのセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-node-version: 20
+
+      - name: ステータスチェックの実行
+        run: node check.js
+
+      - name: GitHub Pagesへデプロイ
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages # 結果をgh-pagesブランチにプッシュ
