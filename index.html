@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サービスステータス</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; background: #f4f7f6; }
+        h1 { color: #333; }
+        .site { background: #fff; padding: 15px; margin-bottom: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; }
+        .status { padding: 5px 10px; border-radius: 3px; font-weight: bold; color: #fff; }
+        .online { background: #2ecc71; }
+        .offline { background: #e74c3c; }
+        .updated { font-size: 0.8em; color: #666; text-align: right; }
+    </style>
+</head>
+<body>
+
+    <h1>サービスステータス</h1>
+    <div id="status-container">読み込み中...</div>
+    <p class="updated" id="last-updated"></p>
+
+    <script>
+        fetch('status.json')
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById('status-container');
+                container.innerHTML = '';
+                data.sites.forEach(site => {
+                    const div = document.createElement('div');
+                    div.className = 'site';
+                    div.innerHTML = `
+                        <span><strong>${site.name}</strong> (${site.url})</span>
+                        <span class="status ${site.status === 'ONLINE' ? 'online' : 'offline'}">${site.status}</span>
+                    `;
+                    container.appendChild(div);
+                });
+                document.getElementById('last-updated').innerText = `最終更新: ${data.last_updated}`;
+            })
+            .catch(err => {
+                document.getElementById('status-container').innerText = 'ステータスの取得に失敗しました。';
+            });
+    </script>
+</body>
+</html>
