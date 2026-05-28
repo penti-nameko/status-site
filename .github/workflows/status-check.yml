@@ -29,6 +29,6 @@ jobs:
       - name: GitHub Pagesへデプロイ
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           publish_dir: ./
           publish_branch: gh-pages # 結果をgh-pagesブランチにプッシュ
