@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/13 21:12:44",
+  "last_updated": "2026/06/13 23:24:16",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -17,7 +17,7 @@
       "name": "Beta App",
       "url": "https://beta.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Cloud Management",
@@ -41,25 +41,25 @@
       "name": "Generator Service",
       "url": "https://generator.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Links Shortener",
       "url": "https://links.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Rielu Official",
       "url": "https://rieluofficial.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Wiki / Docs",
       "url": "https://wiki.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     }
   ]
 }
