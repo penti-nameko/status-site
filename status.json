@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/13 19:38:48",
+  "last_updated": "2026/06/13 21:12:44",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -29,13 +29,13 @@
       "name": "Coolify (Deployment)",
       "url": "https://coolify.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Dashboard",
       "url": "https://dashboard.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Generator Service",
@@ -53,13 +53,13 @@
       "name": "Rielu Official",
       "url": "https://rieluofficial.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Wiki / Docs",
       "url": "https://wiki.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     }
   ]
 }
