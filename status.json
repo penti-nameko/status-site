@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/14 19:06:59",
+  "last_updated": "2026/06/14 21:13:17",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -11,7 +11,7 @@
       "name": "Beta Link",
       "url": "https://betalink.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Beta App",
@@ -23,19 +23,19 @@
       "name": "Cloud Management",
       "url": "https://cloud.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Coolify (Deployment)",
       "url": "https://coolify.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Dashboard",
       "url": "https://dashboard.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Generator Service",
