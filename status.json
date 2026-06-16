@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/17 06:42:25",
+  "last_updated": "2026/06/17 08:09:19",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -47,13 +47,13 @@
       "name": "Links Shortener",
       "url": "https://links.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Rielu Official",
       "url": "https://rieluofficial.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Wiki / Docs",
