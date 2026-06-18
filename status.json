@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026/06/19 06:28:51",
+  "last_updated": "2026/06/19 08:17:37",
   "sites": [
     {
       "name": "ReelDev Main",
       "url": "https://reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Beta Link",
       "url": "https://betalink.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Beta App",
       "url": "https://beta.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Cloud Management",
@@ -29,7 +29,7 @@
       "name": "Coolify (Deployment)",
       "url": "https://coolify.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Dashboard",
@@ -41,7 +41,7 @@
       "name": "Generator Service",
       "url": "https://generator.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Links Shortener",
@@ -53,7 +53,7 @@
       "name": "Rielu Official",
       "url": "https://rieluofficial.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Wiki / Docs",
