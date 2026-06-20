@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/20 15:08:32",
+  "last_updated": "2026/06/20 18:36:19",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -11,7 +11,7 @@
       "name": "Beta Link",
       "url": "https://betalink.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Beta App",
