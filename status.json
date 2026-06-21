@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026/06/21 11:03:47",
+  "last_updated": "2026/06/21 16:04:04",
   "sites": [
     {
       "name": "ReelDev Main",
       "url": "https://reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Beta Link",
@@ -17,7 +17,7 @@
       "name": "Beta App",
       "url": "https://beta.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Cloud Management",
