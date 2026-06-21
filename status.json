@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/22 05:57:30",
+  "last_updated": "2026/06/22 07:09:36",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -29,7 +29,7 @@
       "name": "Coolify (Deployment)",
       "url": "https://coolify.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Dashboard",
@@ -47,7 +47,7 @@
       "name": "Links Shortener",
       "url": "https://links.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Rielu Official",
