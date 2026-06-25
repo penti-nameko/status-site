@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/06/25 18:48:58",
+  "last_updated": "2026/06/25 21:10:29",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -11,7 +11,7 @@
       "name": "Beta Link",
       "url": "https://betalink.reeldev.jp",
       "status": "OFFLINE",
-      "error": "fetch failed"
+      "code": 403
     },
     {
       "name": "Beta App",
@@ -23,7 +23,7 @@
       "name": "Cloud Management",
       "url": "https://cloud.reeldev.jp",
       "status": "OFFLINE",
-      "code": 403
+      "error": "fetch failed"
     },
     {
       "name": "Coolify (Deployment)",
