@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/07/29 16:14:40",
+  "last_updated": "2026/07/29 18:49:08",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -34,8 +34,8 @@
     {
       "name": "Dashboard",
       "url": "https://dashboard.reeldev.jp",
-      "status": "OFFLINE",
-      "error": "fetch failed"
+      "status": "ONLINE",
+      "code": 200
     },
     {
       "name": "Generator Service",
