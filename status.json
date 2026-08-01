@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/08/01 21:51:18",
+  "last_updated": "2026/08/01 23:19:38",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -22,8 +22,8 @@
     {
       "name": "Cloud Management",
       "url": "https://cloud.reeldev.jp",
-      "status": "OFFLINE",
-      "error": "This operation was aborted"
+      "status": "ONLINE",
+      "code": 200
     },
     {
       "name": "Coolify (Deployment)",
