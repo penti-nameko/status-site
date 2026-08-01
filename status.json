@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/08/02 01:35:10",
+  "last_updated": "2026/08/02 02:39:49",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -16,8 +16,8 @@
     {
       "name": "Beta App",
       "url": "https://beta.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Cloud Management",
