@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/08/12 09:40:20",
+  "last_updated": "2026/08/12 12:08:17",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -59,7 +59,7 @@
       "name": "Wiki / Docs",
       "url": "https://wiki.reeldev.jp",
       "status": "OFFLINE",
-      "code": 503
+      "code": 502
     }
   ]
 }
