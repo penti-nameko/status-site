@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026/08/17 18:54:15",
+  "last_updated": "2026/08/17 19:19:29",
   "sites": [
     {
       "name": "ReelDev Main",
       "url": "https://reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Beta Link",
