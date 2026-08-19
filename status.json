@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026/08/19 23:05:43",
+  "last_updated": "2026/08/19 23:50:25",
   "sites": [
     {
       "name": "ReelDev Main",
@@ -10,20 +10,20 @@
     {
       "name": "Beta Link",
       "url": "https://betalink.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Beta App",
       "url": "https://beta.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Cloud Management",
       "url": "https://cloud.reeldev.jp",
       "status": "OFFLINE",
-      "code": 503
+      "error": "This operation was aborted"
     },
     {
       "name": "Coolify (Deployment)",
@@ -34,32 +34,32 @@
     {
       "name": "Dashboard",
       "url": "https://dashboard.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Generator Service",
       "url": "https://generator.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Links Shortener",
       "url": "https://links.reeldev.jp",
-      "status": "ONLINE",
-      "code": 200
+      "status": "OFFLINE",
+      "error": "This operation was aborted"
     },
     {
       "name": "Rielu Official",
       "url": "https://rieluofficial.reeldev.jp",
       "status": "OFFLINE",
-      "code": 404
+      "error": "This operation was aborted"
     },
     {
       "name": "Wiki / Docs",
       "url": "https://wiki.reeldev.jp",
       "status": "OFFLINE",
-      "code": 503
+      "error": "This operation was aborted"
     }
   ]
 }
